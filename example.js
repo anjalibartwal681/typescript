@@ -5,3 +5,9 @@ function greet(name: string): string {
 
 const result: string = greet("TypeScript");
 console.log(result);
+
+
+
+
+
+
