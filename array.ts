@@ -32,3 +32,18 @@ const car: {type:string; model:string;year:number} = {
  year:2016,
 };
 console.log(car)
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+  const car = {
+  type: 5,
+};
+
+
+car.type = "Ford"; // no error
+
+ // Error: Type 'number' is not assignable to type 'string'.
+
+console.log(car);
