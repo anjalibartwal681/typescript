@@ -27,7 +27,7 @@ console.log(readOnlyTuple)
 // console.log(a); // Output: ["initial", 42, "abc", 1]
 // console.log(readOnlyTuple); // Output: [1, "two"]
 ------------------------------------------------------------------------------
-  interface MyObject {
+interface MyObject {
     readonly prop1: number;
     prop2: string;
 }
@@ -36,7 +36,8 @@ let myObject: MyObject = { prop1: 42, prop2: "Hello" };
 
 console.log(myObject)
 
- myObject.prop1: 45
+myObject.prop1= 45
 
-console.log(myObject)
+
+// script.ts(10,10): error TS2540: Cannot assign to 'prop1' because it is a read-only property.
 
