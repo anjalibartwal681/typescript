@@ -20,3 +20,20 @@ console.log(CardinalDirections.West);
 // 6
 // 6
 // 7
+
+//string enum
+
+
+enum CardinalDirections {
+  North,
+  East="abc",
+  South=6,
+  West
+};
+
+// logs 1 since we initialized the first value to something other than '0'
+console.log(CardinalDirections.North);
+console.log(CardinalDirections.East);
+console.log(CardinalDirections.South);
+console.log(CardinalDirections.West);
+
