@@ -16,4 +16,7 @@ console.log(CardinalDirections.North);
 console.log(CardinalDirections.East);
 console.log(CardinalDirections.South);
 console.log(CardinalDirections.West);
-
+//                                       output 0
+// 6
+// 6
+// 7
