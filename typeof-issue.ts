@@ -1,3 +1,9 @@
+let x: unknown = '5';
+
+console.log(x as number+5)
+console.log(x as number*5);
+
+
 let num: any = 42;
 let str: string = num as string; // Type assertion using 'as' syntax
 console.log(typeof num); // Outputs: "string"
